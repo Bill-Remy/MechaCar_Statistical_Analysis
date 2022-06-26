@@ -13,3 +13,10 @@ Based on the p-value of 5.35e-11 being less than 0.05 we can reject the null hyp
 ### Does the model predit MPG of MechaCar prototypes effecitvely?
 The model overall does a fair job of predicting the MPG since the R-squared value is .7149 or the model explains 71.5% of the MPG variance.  The model could be improved by collecting data on other car attributes.  The most likely attributes would be displacement, horsepower and rolling resistance.
 
+## Suspenion Coil PSI Review
+## Summary Data for Suspenion Coil PSI Samples
+
+The figure below provides summary statistics for PSI of all the coils and by Lot.
+
+<img src="Coil_Summary_Stats.png">
+
