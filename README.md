@@ -36,7 +36,7 @@ Ha: There is a statistical difference between the sample mean PSI and the popula
 
 An alpha = 0.05 was used for all tests.
 
-The results of the t-test comparing all sample values of coil psi to the population mean of 1500 psi is shown below.
+The result of the t-test comparing all sample values of coil psi to the population mean of 1500 psi is shown below.
 
 <img src="Sample_mean_to_Population.png">
 
