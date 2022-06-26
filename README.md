@@ -56,3 +56,11 @@ The output of the tests are is shown below.
 <img src="Lot_Paired_Ttest.png" >
 
 ***Analysis or Results***
+
+The sample mean between Lot 1 and Lot are not statistically different given our p-value of .6 is substantially greater than our alpha value.
+Lot 3 is statistically different from Lot 1 and Lot 2 since both p-values of 0.043 and 0.042 respectivey are less than our alpha value.  
+the t-value of 0.52 also tells us that the error differences in the two sample comparisons is small.  In contras the t-values of Lot 1 and Lot 2 compared to Lot are 2.07 and 2.08 respecitvely which would indicate they are modestly different.  
+
+Given how close the p-values are for Lot 3 compared to the other lots it would be prudent to look at the distribution for Lot 3 for outliers and skewness.  We know from prior analysis that the variance in Lot 3 was significantly higher than in Lot 1 or Lot 2.
+
+## Deliverable 4 Mecha Car Competitor Study Design
