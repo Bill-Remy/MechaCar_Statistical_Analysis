@@ -34,5 +34,6 @@ An alpha = 0.05 was used for all tests.
 
 <img src="Sample_mean_to_Population.png">
 #### Analysis of Results
+
 Both Lot 1 and Lot 2 had a p-value of less than our prescribed alpha of 0.05.  This result indicates we should reject H0 and thus there is a statistical difference between the mean PSI in Lot 1 and Lot 2 compared to the population.
 Lot 3 had a p-value  of .1589 which is greatere than our alpha, thus we cannot reject H0.  This would indicate there is no statistical difference between the sample mean PSI for Lot 3 compared to the population mean.
