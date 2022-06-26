@@ -28,8 +28,11 @@ When reviewing the summary statistics for each lot, LOT 3 has an out of specific
 ### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 1)
 To determine if the mean PSI from sample lots is different than the total population mean a simple t-test was conducted for each Lot.  The results of the t-tests are shown below.
 The following hypotheses were used:
+
 H0: There is no statistical difference between the sample mean PSI and the population mean PSI.
+
 Ha: There is a statistical difference between the sample mean PSI and the population PSI.  
+
 An alpha = 0.05 was used for all tests.
 
 <img src="Sample_mean_to_Population.png">
