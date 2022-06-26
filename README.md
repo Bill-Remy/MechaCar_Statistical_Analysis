@@ -27,7 +27,7 @@ When reviewing the summary statistics for each lot, LOT 3 has an out of specific
 ## Suspension Coil Sample vs. Population Analysis (Deliverable 3)
 
 
-### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 2)
+### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 1)
 To determine if the mean PSI from sample lots is different than the total population mean a simple t-test was conducted for each Lot.  The results of the t-tests are shown below.
 The following hypotheses were used:
 
@@ -40,9 +40,8 @@ An alpha = 0.05 was used for all tests.
 <img src="Sample_mean_to_Population.png">
 
 ***Analysis of Results***
+The p-value for all samples versus the population mean of 1500 was 0.06 which was more than our alpha of 0.05 thus we cannot reject H0.  The coil samples are not statistically different than the population mean of 1500 psi. 
 
-Both Lot 1 and Lot 2 had a p-value of less than our prescribed alpha of 0.05.  This result indicates we should not reject H0 and thus there is not a statistical difference between the mean PSI in Lot 1 and Lot 2 compared to the population.
-Lot 3 had a p-value  of .1589 which is greatere than our alpha, thus we can reject H0.  This would indicate there is a statistical difference between the sample mean PSI for Lot 3 compared to the population mean.
 
 ### Comparison of Sample Means Across Lots (Deliverable 3 Part 2)
 To compare the sample means across the different coil lots a paired t-test was used with an alpha of 0.05.
