@@ -25,7 +25,9 @@ The mean and median for the coil sample population were as specified with values
 When reviewing the summary statistics for each lot, LOT 3 has an out of specification condition with variance of the coils.  The total variance exceeds 100 psi at 170 psi.  The other lots, Lot 1 and Lot 2, are clearly in specification on both mean and variance from coil to coil.  There is an issue with Lot 3 that warrants further investigation.
 
 ## Suspension Coil Sample vs. Population Analysis (Deliverable 3)
-### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 1)
+
+
+### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 2)
 To determine if the mean PSI from sample lots is different than the total population mean a simple t-test was conducted for each Lot.  The results of the t-tests are shown below.
 The following hypotheses were used:
 
