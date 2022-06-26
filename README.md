@@ -13,7 +13,7 @@ Based on the p-value of 5.35e-11 being less than 0.05 we can reject the null hyp
 ### Does the model predit MPG of MechaCar prototypes effecitvely?
 The model overall does a fair job of predicting the MPG since the R-squared value is .7149 or the model explains 71.5% of the MPG variance.  The model could be improved by collecting data on other car attributes.  The most likely attributes would be displacement, horsepower and rolling resistance.
 
-## Suspenion Coil PSI Review
+## Suspenion Coil PSI Review (Deliverable 2)
 ## Summary Data for Suspenion Coil PSI Samples
 
 The figure below provides summary statistics for PSI of all the coils and by Lot.
@@ -23,3 +23,16 @@ The figure below provides summary statistics for PSI of all the coils and by Lot
 The mean and median for the coil sample population were as specified with values of 1498.8 and 1500 psi repsectively.  The varance and standard deviation for the sample population were as expected and did not indicate any cause for concern.
 
 When reviewing the summary statistics for each lot, LOT 3 has an out of specification condition with variance of the coils.  The total variance exceeds 100 psi at 170 psi.  The other lots, Lot 1 and Lot 2, are clearly in specification on both mean and variance from coil to coil.  There is an issue with Lot 3 that warrants further investigation.
+
+## Suspension Coil Sample vs. Population Analysis (Deliverable 3)
+### Comparison of Lot Mean vs. Population Mean
+To determine if the mean PSI from sample lots is different than the total population mean a simple t-test was conducted for each Lot.  The results of the t-tests are shown below.
+The following hypotheses were used:
+H0: There is no statistical difference between the sample mean PSI and the population mean PSI.
+Ha: There is a statistical difference between the sample mean PSI and the population PSI.  
+An alpha = 0.05 was used for all tests.
+
+<img src="Lot_Paired_Ttest.png">
+#### Analysis of Results
+Both Lot 1 and Lot 2 had a p-value of less than our prescribed alpha of 0.05.  This result indicates we should reject H0 and thus there is a statistical difference between the mean PSI in Lot 1 and Lot 2 compared to the population.
+Lot 3 had a p-value  of .1589 which is greatere than our alpha, thus we cannot reject H0.  This would indicate there is no statistical difference between the sample mean PSI for Lot 3 compared to the population mean.
