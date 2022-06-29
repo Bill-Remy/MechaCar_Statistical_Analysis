@@ -75,14 +75,15 @@ In order to determine Total Value the team will need to develop multiple sets of
 ***Assumptions and Sampling Parameters***
 - All data sets will be tested for normality
 - Sample plans will be adjusted as necessary to account for sample varaince 
+- Alpha = 0.05 for all tests
 
 The statistical testing necessary to develop the "Total Value" analysis will be divided into three parts.
 
 **Part I - Price Comparison and Market Sensitivity**
 
-First the team will do a simple comparison of the expected MechaCar price to the market sample mean price via one sided t-test.  As a second dimenion of understanding market pricing the team will develop a regression model of competitors cars to understand the impact on price of city fuel mileage and suspenion performance.  The resuslt of this regression model will be to test where MechaCar fits on the line and to evaluate design tradeofs that may improve price vs. performance or allow us to capture a higher price.
+First, the team will do a simple comparison of the expected MechaCar price to the market sample mean price via one sided t-test.  As a second dimenion of understanding market pricing the team will develop a regression model of competitors cars to understand the impact on price of city fuel mileage and suspenion performance.  The resuslt of this regression model will be to test where MechaCar fits on the line and to evaluate design tradeoffs that may improve price vs. performance or allow us to capture a higher price.
 
-The hypothesis for Part I are as follows:
+The hypothesis for Part I is as follows:
 H0 - MechaCar price is = Market mean price 
 Ha - MechaCar prices is not = Market mean price.
 
@@ -107,5 +108,5 @@ Marketing and Engineering have gathered sufficient market data on competitors su
 
 **Results and Conclusions
 
-After completion of all three testing parts, the Marketing team will utilize the regression model developed in Part I to evaluate the parameters of city fuel mileage and "driveability" to determine if pricing of MechaCar is in line with market expectations.  If warraned the Marketing team will test various price scenarios to examine changes to mileage performance or suspension to evaluate pricing elasticity.   Finally, the Marketing team can develop the Total Value offering of MechaCar to the market for marketing and sales campaigns.
+After completing the three testing parts, the Marketing team will utilize the regression model developed in Part I to evaluate the parameters of city fuel mileage and "driveability" to determine if pricing of MechaCar is in line with market expectations.  If warranted the Marketing team will test various price scenarios to examine changes to mileage performance or suspension to evaluate price elasticity.   Finally, the Marketing team can develop the Total Value offering of MechaCar to the market for marketing and sales campaigns.
 
