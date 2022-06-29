@@ -5,7 +5,7 @@ The oputput from our multiple linear regression model is shown below.
 <img src="linear_regression_model_output.png">
 
 ### Which variables/coefficients provide non-random amount of variance to the mpg values?
-From  the output table above both vehicle length and ground clearance provide non-random variance.  We can conclude this since both of their Pr values are less than 0.05.  The vehichle weight is close to meeting our threshold at a value of 0.078 but we would need additional data with analysis to conclude weight is a factor.
+From  the output table above both vehicle length and ground clearance provide non-random variance.  We can conclude this since both of their Pr values are less than 0.05.  The vehichle weight is close to meeting our threshold at a value of 0.078 but we would need additional data with analysis to conclude weight is a factor.  We could consider removing spoiler angle and AWD since they do not contribute significantly to the model.  Their respective p-values are greater than the threshold and the coefficients are not contributory to the model.  
 
 ### Is the slope of the line zero?
 Based on the p-value of 5.35e-11 being less than 0.05 we can reject the null hypothesis and say the slope is not zero.
@@ -27,8 +27,8 @@ When reviewing the summary statistics for each lot, LOT 3 has an out of specific
 ## Suspension Coil Sample vs. Population Analysis (Deliverable 3)
 
 ### Comparison of Lot Mean vs. Population Mean (Deliverable 3 Part 1)
-T
-he following hypotheses were used for the t-test of samples compared to the population:
+
+The following hypotheses were used for the t-test of samples compared to the population:
 
 H0: There is no statistical difference between the sample mean PSI and the population mean PSI if 1500.
 
@@ -64,3 +64,14 @@ the t-value of 0.52 also tells us that the error differences in the two sample c
 Given how close the p-values are for Lot 3 compared to the other lots it would be prudent to look at the distribution for Lot 3 for outliers and skewness.  We know from prior analysis that the variance in Lot 3 was significantly higher than in Lot 1 or Lot 2.
 
 ## Deliverable 4 Mecha Car Competitor Study Design
+
+To measusre our MechaCar to the competition, marketing has determined that Total Value defined by price, city fuel mileage and drivability is the key differentiator.  The weighting of the Total Value components will be as follows:
+- Price 50%
+- City Fuel Mileage 30%
+- Driveability  20%
+
+In order to determine Total Value the team will need to develop multiple sets of test to evaluate MechaCar to the market competitors and their values provided by Marketing.  Marketing has compiled statistical data sets of the comparable cars with their prices, city fuel mileage and suspension performance as a proxy for driveability.
+
+The statistical testing necessary to develop the "Total Value" analysis will be divided into three parts.
+
+**Part I - Price Comparison and Market Sensitivity**
