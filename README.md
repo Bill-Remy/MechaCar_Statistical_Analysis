@@ -65,13 +65,47 @@ Given how close the p-values are for Lot 3 compared to the other lots it would b
 
 ## Deliverable 4 Mecha Car Competitor Study Design
 
-To measusre our MechaCar to the competition, marketing has determined that Total Value defined by price, city fuel mileage and drivability is the key differentiator.  The weighting of the Total Value components will be as follows:
+To meassure our MechaCar to the competition, marketing has determined that Total Value defined by price, city fuel mileage and drivability is the key differentiator.  The weighting of the Total Value components will be as follows:
 - Price 50%
 - City Fuel Mileage 30%
 - Driveability  20%
 
 In order to determine Total Value the team will need to develop multiple sets of test to evaluate MechaCar to the market competitors and their values provided by Marketing.  Marketing has compiled statistical data sets of the comparable cars with their prices, city fuel mileage and suspension performance as a proxy for driveability.
 
+***Assumptions and Sampling Parameters***
+- All data sets will be tested for normality
+- Sample plans will be adjusted as necessary to account for sample varaince 
+
 The statistical testing necessary to develop the "Total Value" analysis will be divided into three parts.
 
 **Part I - Price Comparison and Market Sensitivity**
+
+First the team will do a simple comparison of the expected MechaCar price to the market sample mean price via one sided t-test.  As a second dimenion of understanding market pricing the team will develop a regression model of competitors cars to understand the impact on price of city fuel mileage and suspenion performance.  The resuslt of this regression model will be to test where MechaCar fits on the line and to evaluate design tradeofs that may improve price vs. performance or allow us to capture a higher price.
+
+The hypothesis for Part I are as follows:
+H0 - MechaCar price is = Market mean price 
+Ha - MechaCar prices is not = Market mean price.
+
+**Part II - City Fuel Mileage vs. Market Competitors
+
+The team will need to collect samples from not less than five lots of MechaCars with a sample size of ten cars per sample.  The team will do a one sample t-test on each sample and paired t-test across the samples to determine if the MechaCar is better than the market city fuel mileage.  The testing hypothesis are:
+
+H0 - MechaCar mean city fuel mileage is > market city fuel mileage
+Ha - MechaCar mean city fuel mileage is <= market city fuel mileage.
+
+In addition to testing of the means sample to sample and versus the market, the team will need to test the variances of the samples.  For this test a F-test will be used to compare sample variances between samples.  The hypothesis used for this test are:
+- H0 - The sample variances are equal to each other
+- Ha = The sample variances are not equal to each other
+
+**Part III - Driveability - Suspension Performance vs Market
+
+In the suspension test the engineering team will subject test suspenions to loading that simulates light and heavy braking along with cornering.  The test will consist of taking reading from compression distance when various loads are applied.  The team will collect the data into three groups(light braking, heavy braking and cornering) with a sampling plan that is the same as the fule mileage(five sample groups of ten cars in each group).  The desired out come for MechaCar is to have a stiffer, more sporty suspenion than the competition.  Thus the hypothesis for suspension testing will be as follows:
+- H0 - MechaCar suspension compression in all conditions is < Market mean compression
+- Ha - MechaCar suspension compression in all conditions is >= Market mean compression
+
+Marketing and Engineering have gathered sufficient market data on competitors suspension performance to ascertain the mean market performance.
+
+**Results and Conclusions
+
+After completion of all three testing parts, the Marketing team will utilize the regression model developed in Part I to evaluate the parameters of city fuel mileage and "driveability" to determine if pricing of MechaCar is in line with market expectations.  If warraned the Marketing team will test various price scenarios to examine changes to mileage performance or suspension to evaluate pricing elasticity.   Finally, the Marketing team can develop the Total Value offering of MechaCar to the market for marketing and sales campaigns.
+
